@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 5rem;
+    width: 5rem;
+    border-radius:100%;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin:0.5rem;
+}
+#logo p{
+    flex-direction: column;
+    font-size: 2rem;
+    color: yellowgreen;
+}
+#nav{
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    background-color: rgba(32, 24, 25);
+}
+#nav ul{
+   align-items: center;
+   list-style:none;
+   display: flex;
+   gap: 2rem;
+   color: aliceblue;
+}
+#nav ul :hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+#btn{
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+.btn{
+    height: 3rem;
+    width: 8rem;
+    border: 1px solid yellowgreen;
+    background-color:yellowgreen;
+    color: aliceblue;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.btn:hover{
+    color: red;
+}
+#btn1{
+    background-color: transparent;
+}
+#btn1:hover{
+    background-color:yellowgreen;
+}
+
+.home{
+    background-image:url("Assets/WhatsApp\ Image\ 2026-08-31\ at\ 5.12.30\ PM.jpeg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    min-height: 550px;
+}
+#p{
+    font-family: "Oswald", sans-serif;
+    color: yellowgreen;
+    padding: 50px 0 0 60px;
+    font-size: 1.5rem;
+}
+.h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+    color:aliceblue;
+    padding: 0 0 0 60px;
+}
+#paira{
+    
+    color: aliceblue;
+    padding:0 0 0 60px;
+    font-size: 1.5rem;
+}
+.join{
+     height: 3rem;
+     width: 10rem;
+     border-radius: 0.5rem;
+     cursor: pointer;
+     border: none;
+     margin: 30px 0 0 60px;
+     background-color: yellowgreen;
+}
+
+.bar{
+    height: 8rem;
+    width: 96vw;
+    border: 1px solid yellowgreen;
+    border-radius: 1rem;
+    margin: 4rem 1rem 0 1rem;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inbox{
+    font-family: "Oswald", sans-serif;
+    height:6rem;
+    width:18rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   padding: 1rem;
+}
+.icon{
+    color: yellowgreen;
+    font-size: 3rem;
+}
+
+.contant{
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+.program{
+    height: 20rem;
+    width: 100%;
+    background-color: #111;
+    color: aliceblue;
+}
